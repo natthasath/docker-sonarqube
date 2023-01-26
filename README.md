@@ -8,7 +8,7 @@ SonarQube is an open-source platform for static code analysis, used to find bugs
 
 ### 🥈 Run
 
-- [http://localhost:29000/](http://localhost:29000/) username : `admin` password : `admin`
+- [http://localhost:9000/](http://localhost:9000/) username : `admin` password : `admin`
 
 ```shell
 docker-compose up -d
