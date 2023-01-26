@@ -5,8 +5,7 @@ services:
     container_name: sonarqube
     restart: always
     ports:
-      - 29000:9000
-      - 29092:9092
+      - ${APP_PORT}:9000
     networks:
       - default
     volumes:
